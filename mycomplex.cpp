@@ -239,9 +239,3 @@ Complex& Complex::operator=(const double& aRval) {
     Im = 0.0;
     return *this;
 }
-
-/**
- * @brief Оператор ввода для комплексного числа.
- * @param stream - поток ввода.
- * @param a - комплексное число, которое нужно считать.
- * @return Поток ввода.
